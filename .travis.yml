@@ -2,4 +2,4 @@ language: ruby
 rvm:
   - 1.9.3
 before_script: sudo apt-get install nethack-console
-script: yes y | PATH=$PATH:/usr/games nethack
+script: PATH=$PATH:/usr/games yes y|nethack
