@@ -1,3 +1,4 @@
-language: java
-before_script: wget https://s3.amazonaws.com/MinecraftDownload/launcher/minecraft.jar
-script: java -cp minecraft.jar net.minecraft.LauncherFrame
+language: ruby
+rvm:
+  - 1.9.3
+script: ruby -e 'exit 1'
